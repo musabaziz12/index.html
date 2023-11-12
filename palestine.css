@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+
+body {
+  background-image: linear-gradient(rgba(39, 36, 36, 0.4), rgba(0, 0, 0, 0.5)), url(https://i.etsystatic.com/12693341/r/il/d02507/2070800841/il_570xN.2070800841_s11h.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 30px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul li a span {
+  background-color: rgba(12, 12, 12, 0.979);
+  padding: 9px;
+  border-radius: 25px;
+}
+
+.navbar ul li a:hover {
+  color: rgb(230, 142, 10);
+
+
+}.heading h1 {
+  display: inline-block;
+  margin: 30px;
+color: white;
+text-align: left;
+font-size: 70px;
+}
+.heading h1 span {
+color: rgb(170, 3, 3);
+
+}
+.free{
+  width: 53%;
+}
+.free h2 {
+  margin: 30px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-family: 'Sedgwick Ave', cursive;
+}
+.free p {
+  margin: 30px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Fresca', sans-serif;
+}
+.button {
+  margin: 30px;
+}
+.button button {
+  border-radius: 25px;
+  border-color: rgb(190, 13, 7);
+  padding: 15px;
+}
+.button button a {
+  color: rgb(168, 8, 8);
+  font-weight: 600;  
+text-decoration: none;
+}
